@@ -1,0 +1,29 @@
+.characters {
+  &__search {
+    display: flex;
+  
+    &-input,
+    &-btn {
+      border-radius: var(--search-border-radius);
+      padding: 13px 17px 12px; 
+    }
+  
+    &-input {
+      flex: 1;
+      margin-right: 24px;
+    }
+  
+    &-btn {
+      width: 212px;
+      background-color: var(--button-bg-color);
+      color: var(--text-color);
+      cursor: pointer;
+    
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  
+    margin-bottom: 41px;
+  }
+}
